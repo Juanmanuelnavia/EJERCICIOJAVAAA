@@ -12,16 +12,16 @@ public class Main {
 
 
         for (int numeroPersona = 1; numeroPersona <= cantidadPersonas; numeroPersona++) {
-            System.out.println("Ingrese la edad de la persona " + numeroPersona + ": ");
+            System.out.println("porfavor Ingrese la edad de la persona " + numeroPersona + ": ");
             edad = input.nextDouble();
 
-            System.out.println("Ingrese el estado civil de la persona " + numeroPersona + " (1. Soltero, 2. Casado): ");
+            System.out.println("porfavor Ingrese el estado civil de la persona " + numeroPersona + " (1. Soltero, 2. Casado): ");
             estadoCivil = input.nextDouble();
 
-            System.out.println("Ingrese la altura de la persona " + numeroPersona + " en cm: ");
+            System.out.println("porfavor Ingrese la altura de la persona " + numeroPersona + " en cm: ");
             estatura = input.nextDouble();
 
-            System.out.println("Ingrese el sexo de la persona " + numeroPersona + " (1. Hombre, 2. Mujer): ");
+            System.out.println("porfavor Ingrese el sexo de la persona " + numeroPersona + " (1. Hombre, 2. Mujer): ");
             sexo = input.nextDouble();
 
 
@@ -43,7 +43,7 @@ public class Main {
             System.out.println("El promedio de estatura de las personas que cumplen es: " + promedioEstatura + " cm");
             System.out.println("El porcentaje de las personas que cumplen con la condición es del: " + porcentajePersonas + " %");
         } else {
-            System.out.println("Ninguna persona cumple con las condiciones.");
+            System.out.println("Ninguna de las persona cumple con las condiciones.");
         }
 
 
